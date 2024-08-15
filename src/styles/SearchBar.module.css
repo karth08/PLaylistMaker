@@ -1,0 +1,42 @@
+
+.form{
+    display:flex;
+    flex-direction: row;
+
+    /*Variable depending on width*/
+    width: 100%;
+
+
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+    vertical-align: middle;
+}
+
+.input{
+    /*Variable depending on width*/
+    padding: 2px 15px;
+    width: 75%;
+
+    /*Variable depending on width*/
+    margin: 10px;
+}
+
+@media only screen and (min-width: 1500px){
+
+    .form{
+        flex-direction: column;
+
+        /*Variable depending on width*/
+        width: 500px;
+    }
+
+    .input{
+        /*Variable depending on width*/
+        padding: 2px 15px;
+
+        /*Variable depending on width*/
+        margin: 10px;
+    }
+
+}

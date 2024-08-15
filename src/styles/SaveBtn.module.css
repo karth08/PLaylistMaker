@@ -1,0 +1,40 @@
+
+.button{
+
+    /*Variable depending on width*/
+    bottom: 0;
+
+    /*Variable depending on width*/
+    margin: 10px;
+
+    /*Variable depending on width*/
+    padding: 10px 20px;
+
+    border-radius: 15px;
+    background-color: black;
+    color: yellowgreen;
+
+    /*Variable depending on width*/
+    font-size: 1rem;
+    
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 1500px){
+
+.button{
+
+    /*Variable depending on width*/
+    bottom: 0;
+
+    /*Variable depending on width*/
+    margin: 10px;
+
+    /*Variable depending on width*/
+    padding: 10px 20px;
+
+    /*Variable depending on width*/
+    font-size: 1.25rem;
+    
+}
+}

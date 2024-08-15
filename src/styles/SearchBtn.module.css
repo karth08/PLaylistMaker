@@ -1,0 +1,36 @@
+.button{
+
+    /*Variable depending on width*/
+    margin: 10px;
+
+    /*Variable depending on width*/
+    padding: 5px;
+
+    align-self: center;
+    justify-self: center;
+
+    /*Variable depending on width*/
+    font-size: 1rem;
+    
+    background-color: black;
+    color: yellowgreen;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 1500px){
+
+    .button{
+
+        /*Variable depending on width*/
+        margin: 5px 50px;
+    
+        /*Variable depending on width*/
+        padding: 5px;
+
+        /*Variable depending on width*/
+        font-size: 1.5rem;
+        
+    }
+
+}

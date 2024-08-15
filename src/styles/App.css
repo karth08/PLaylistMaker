@@ -1,0 +1,86 @@
+
+
+.App {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  /*Variable depending on width*/
+  margin-top: 30px;
+}
+
+h1{
+  /*Variable depending on width*/
+  font-size: 1.75rem;
+}
+
+#form-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#main-div{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+
+  /*Variable depending on width*/
+  min-height: 70%;
+
+  /*Variable depending on width*/
+  padding: 5px;
+
+  /*Variable depending on width*/
+  gap: 5px;
+}
+
+
+#results-div, #playlist-div{
+  min-height: 100%;
+
+  /*Variable depending on width*/
+  width: 100%;
+
+
+}
+
+
+@media only screen and (min-width: 1500px){
+  .App {
+    flex-direction: column;
+  
+    /*Variable depending on width*/
+    margin-top: 300px;
+  }
+
+  h1{
+    /*Variable depending on width*/
+    font-size: 3rem;
+  }
+
+  #main-div{
+    display: flex;
+    flex-direction: row;
+  
+    /*Variable depending on width*/
+    min-height: 600px;
+  
+    /*Variable depending on width*/
+    padding: 25px;
+  
+    /*Variable depending on width*/
+    gap: 25px;
+  }
+
+
+  #results-div, #playlist-div{
+    /*Variable depending on width*/
+    width: 50%;
+
+  }
+
+}
